@@ -1,0 +1,22 @@
+[project]
+name = "rag_finance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.3.26",
+    "langchain>=0.3.26",
+    "pypdf>=5.6.0",
+    "langchain-openai>=0.3.24",
+    "ipython>=9.3.0",
+    "langgraph>=0.4.8",
+    "fastapi[standard]>=0.115.14",
+    "pydantic-settings>=2.9.1",
+    "redis>=6.2.0",
+]
+
+[dependency-groups]
+lint = [
+    "ruff>=0.12.0",
+]
